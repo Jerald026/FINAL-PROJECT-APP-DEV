@@ -1287,7 +1287,7 @@ public class GamePage extends AppCompatActivity {
         if (hitCheck(bombCenterX, bombBottomY)) {
             bombY = frameHeight + 100;
 
-            if(!condition) {
+            if(!condition2) {
                 vibrator.vibrate(500);
             }
 
@@ -1422,7 +1422,7 @@ public class GamePage extends AppCompatActivity {
             sound.playErrorSound();
         }
 
-        if(!condition) {
+        if(!condition2) {
             vibrator.vibrate(300);
         }
 
